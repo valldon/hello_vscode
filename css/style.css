@@ -1,0 +1,120 @@
+body {
+    font-family: 'Lato', 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+    color: #222222;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.header__logo {
+    background-image: url('../images/site-logo.png');
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 30px;
+    left: 0;
+}
+
+.menu__list-item {
+    display: inline-block;
+    font-size: 11px;
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 24px;
+}
+
+.header__lang-list {
+    display: flex;
+    width: 50px;
+}
+
+.header__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__section {
+    height: 615px;
+    width: 615px;
+}
+
+.header__img {
+    display: block;
+    background-image: url('../images/main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: 100%;
+    width: 100%;
+}
+
+.header__title {
+    font-size: 55px;
+    color: #8ec0c4;
+    max-width: 50%;
+}
+
+.header__title span {
+    font-size: 45px;
+    color: #222222;
+}
+
+
+
+
+
+.download{
+    background-color:#8ec0c4;
+    padding-top: 100px;
+  
+}
+
+.download__inner{
+    display: block;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.download__inner h3{
+    font-size: 70px;
+    font-weight: 200;
+}
+.download__inner-item{
+    margin-bottom: 10px;
+}
+.download__inner__app-link{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.download__inner__google{
+    background-image: url('../images/google-play-badge.svg');
+    }
+.download__inner__apple{
+    background-image: url('../images/app-store-badge.svg');
+   }
+   
+.download__inner__app-item{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60px;
+    width: 202px;
+    margin-left: 10px;
+}
